@@ -36,3 +36,10 @@ The purpose is to accept Ether from the contract and separate the Ether accordin
 ![MetaMask](./Screenshots/Associate_profit_metamask.png) 
 
 4. Next you can add any amount in the "Value" section. under deploy you will see options _ONE, _TWO and _THREE. That will represent the 3 employee's wallet addresses. Once you fill them in it should look like this:
+![Deploy](./Screenshots/Associate_profit_deploy.png) 
+
+5. Once you confirm all the information is right, select "transact" and the transaction will appear on MetaMask. You can select "confirm" now.
+![Transaction](./Screenshots/Associate_profit_transact.png) 
+
+6. You can confirm the transaction went through by checking the Ganache tool under the "TRANSACTIONS" tab.
+![Confirm](./Screenshots/Associate_profit_confirm.png) 
