@@ -18,3 +18,13 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
  - Distribute profits to different tiers of employees.
 
  - Distribute company shares for employees in a "deferred equity incentive plan" automatically.
+
+## Level One: The AssociateProfitSplitter Contract
+
+The purpose is to accept Ether from the contract and separate the Ether accordingly to the 3 employees. We will be paying three individuals:
+ - Employee 1: employee_one
+ - Employee 2: employee_two
+ - Employee 3: employee_three
+
+1. First step is to write the contract and get ready to compile. 
+![Compile](./Screenshots/Associate_profit_compile.png) 
