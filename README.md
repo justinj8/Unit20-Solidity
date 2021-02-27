@@ -26,5 +26,13 @@ The purpose is to accept Ether from the contract and separate the Ether accordin
  - Employee 2: employee_two
  - Employee 3: employee_three
 
-1. First step is to write the contract and get ready to compile. 
+1. First step is to write the contract and get ready to compile. After pressing the "Compile" button, it should show a green checkmark to show that it has succesfully compiled.
 ![Compile](./Screenshots/Associate_profit_compile.png) 
+
+2. Next, you have to open up the Ganache tool. You must choose or create a new workspace to use and then fund them accordingly. My tool will show 100 ETH with an exception of a couple. 
+![Ganache](./Screenshots/Associate_profit_ganache.png) 
+
+3. Last step before deploying is connecting your MetaMask and confirming that your Metamask wallet is synergizined with the Remix IDE page. In order to do that, first login to your MetaMask account. Then under Environment, change the dropdown to Injected Web3. That should update with the account you see in MetaMask. 
+![MetaMask](./Screenshots/Associate_profit_metamask.png) 
+
+4. Next you can add any amount in the "Value" section. under deploy you will see options _ONE, _TWO and _THREE. That will represent the 3 employee's wallet addresses. Once you fill them in it should look like this:
