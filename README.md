@@ -43,3 +43,20 @@ The purpose is to accept Ether from the contract and separate the Ether accordin
 
 6. You can confirm the transaction went through by checking the Ganache tool under the "TRANSACTIONS" tab.
 ![Confirm](./Screenshots/Associate_profit_confirm.png) 
+
+## Level Two: The TieredProfitSplitter Contract
+
+In this contract, rather than splitting the profits between Associate-level employees, you will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
+
+1. Essentially you would conduct the same process as level one. First, you compile if your finished solidity smart contract looks like the following:
+
+
+You can now hit compile and go to the deploy tab.
+
+2. Same as the level one, change the environment, and add the 3 employee wallets. Then you are ready to Deploy!
+
+3. Once you hit transact, MetaMask will pop up to confirm your transaction. The contract has Deployed and the transaction has went through.
+
+4. Next, you can check Ganache to confirm the transaction generated and successfully completed the transaction.
+
+The following is opening up our transaction that we just deployed to see the TXN detail:
