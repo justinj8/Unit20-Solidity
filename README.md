@@ -49,14 +49,18 @@ The purpose is to accept Ether from the contract and separate the Ether accordin
 In this contract, rather than splitting the profits between Associate-level employees, you will calculate rudimentary percentages for different tiers of employees (CEO, CTO, and Bob).
 
 1. Essentially you would conduct the same process as level one. First, you compile if your finished solidity smart contract looks like the following:
-
+![Compile part 1](./Screenshots/Tired_profit_compile1.png) | ![Compile part 2](./Screenshots/Tired_profit_compile2.png) 
 
 You can now hit compile and go to the deploy tab.
 
 2. Same as the level one, change the environment, and add the 3 employee wallets. Then you are ready to Deploy!
+![Deploy](./Screenshots/Tired_profit_deploy.png)
 
 3. Once you hit transact, MetaMask will pop up to confirm your transaction. The contract has Deployed and the transaction has went through.
+![Transaction](./Screenshots/Tired_profit_transact.png)
 
 4. Next, you can check Ganache to confirm the transaction generated and successfully completed the transaction.
+![Ganache Check](./Screenshots/Tired_profit_ganache.png)
 
 The following is opening up our transaction that we just deployed to see the TXN detail:
+![Ganache TXN](./Screenshots/Tired_profit_txn.png)
