@@ -78,21 +78,34 @@ If, for example, the employee only sticks around for the first two years before 
 Specific vesting periods, the dollar/crypto value of shares awarded, and the percentage equity stake (the percentage ownership of the company) all tend to vary according to the company, the specialized skills, or seniority of the employee, and the negotiating positions of the employee/company. If you receive an offer from a company offering equity (which is great!), just make sure you can clarify the current dollar value of those shares being offered (based on, perhaps, valuation implied by the most recent outside funding round). In other words, don’t be content with just receiving “X” number of shares without having a credible sense of what amount of dollars that “X” number represents. Be sure to understand your vesting schedule as well, particularly if you think you may not stick around for an extended period of time.
 
 1. The deferred equity plan below shows that the contract will distribute 1,000 company shares for each employee. But the breakdown for the equity plan is an annual distribution of 250 shares each over a 4-year timeframe.
-
+![Deferred Plan part 1](./Screenshots/DeferredPlan_1.png) ![Deferred Plan part 2](./Screenshots/DeferredPlan_2.png) 
 
 2. Since the original had us write the contract using += 100 days, but the distribution for the shares is on a yearly basis. We have to use a fake now fast forward function that will be +=365 days. 
 
+![Deferred Plan Fakenow part 1](./Screenshots/DeferredPlan_FF1.png) ![Deferred Plan Fakenow part 2](./Screenshots/DeferredPlan_FF2.png) 
 
 3. Next, compile the FastForward contract and deploy with 0 wei in "Value" which has a gas fee associated with it.
 
+![Deferred Plan Fakenow compile](./Screenshots/DeferredPlan_FFcompile.png) 
+
+![Deferred Plan Fakenow deploy](./Screenshots/DeferredPlan_FFdeploy.png) 
 
 4. You can check Ganache for the transaction and the TXN detail
+
+![Deferred Plan Fakenow ganache](./Screenshots/DeferredPlan_FFganache.png) 
 
 
 5. Next, we need to fast forward the date from today to 1 year. We can do that by first clicking the fastforward button. Confirm on the MetaMask pop up. Once the transaction is successful, you can click the distribute button. Once again confirm on MetaMask pop up. 
 
+![Deferred Plan Fastforward button](./Screenshots/DeferredPlan_FFbutton.png) 
+
+![Deferred Plan Distribute button](./Screenshots/DeferredPlan_distributebutton.png) 
 
 6. Finally you can check the Ganache tool for the transaction history and the TXN detail for both to see a successful transaction.
 
+![Deferred Plan Fastforward ganache](./Screenshots/DeferredPlan_ganache.png) 
+
+![Deferred Plan Fastforward txn1](./Screenshots/DeferredPlan_txn1.png) 
+![Deferred Plan Fastforward txn2](./Screenshots/DeferredPlan_txn2.png) 
 
 ## CONGRATULATIONS!! We have successfully deployed and tested all 3 smart contracts
